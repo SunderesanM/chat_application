@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(
     cors({
       origin: process.env.NODE_ENV === "production"
-        ? "https://chat-application-eta-six.vercel.app"
+        ? "https://innovix-chat.vercel.app"
         : "http://localhost:5173",
       credentials: true,
     })
