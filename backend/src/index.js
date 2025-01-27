@@ -15,6 +15,8 @@ const __dirname=path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
+console.log("NODE_ENV:", process.env.NODE_ENV);
+
 app.use(
     cors({
       origin: process.env.NODE_ENV === "production"
