@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/api/(.*)",  
       "dest": "src/index.js"
     }
+  ],
+  "cleanUrls": true,
+  "rewrites": [      
+    { "source": "/custom-path", "destination": "/api/specific-endpoint" }
   ]
 }
