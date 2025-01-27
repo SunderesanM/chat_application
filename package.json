@@ -1,7 +1,7 @@
 {
   "name": "chat_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the chat application",
   "main": "index.js",
   "scripts": {
     "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
