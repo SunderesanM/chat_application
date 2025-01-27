@@ -19,7 +19,7 @@ console.log("NODE_ENV:", process.env.NODE_ENV);
 
 app.use(
     cors({
-      origin: process.env.NODE_ENV === "production"
+      origin: process.env.NODE_ENV === "Production"
         ? "https://innovix-chat.vercel.app"
         : "http://localhost:5173",
       credentials: true,
